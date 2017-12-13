@@ -1,0 +1,321 @@
+body {
+    background-color: darkgrey;
+    width: 900px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #212123;
+    /*height: 800px;*/
+    text-align: center;
+    padding-bottom: 2em;
+    /*margin-left: 5%;
+    margin-right: 5%;*/
+}
+
+#top1{
+    background-color: #935C1B;
+    height: 20px;
+    border-bottom: 1px solid #9d7933;
+    border-top: 2px solid #9d7933;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 10px;
+}
+
+#top2{
+    background-color: black;
+    background-image: url(links/topbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    color: white;
+    margin-top: 0;
+    overflow: auto;
+}
+
+.navigationBar {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-top: 0;
+    color: #9d7933;
+    background-color: black;
+    height: 2.5em;
+    border-top: 3px solid #9d7933;
+    border-bottom: 2px solid #9d7933;
+}
+
+.navigations {
+    float: left;
+    padding: 0.5em;
+    width: 25%;
+    box-sizing: border-box;
+    display: block;
+    background-color: black;
+}
+
+.navigations:hover {
+    color: lightgoldenrodyellow;
+}
+
+.navigations a{
+    text-decoration: none;
+    color: #9d7933;
+}
+
+.navigations a:hover{
+    color: lightgoldenrodyellow;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+h3{
+    color: #9d7933;
+    font-size: 20px;
+}
+
+#left{
+    width: 22%;
+    height: 500px;
+    background-color: #141212;
+    box-sizing: border-box;
+    float: left;
+    margin: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    border-top: 3px solid #49350b;
+    display: block;
+}
+
+#middle{
+    text-align: center;
+    width: 38%;
+    /*height: 500px;*/
+    background-color: #141212;
+    box-sizing: border-box;
+    float: left;
+    margin: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    border-top: 4.5px solid #49350b;
+    display: block;
+}
+
+#right{
+    width: 22%;
+    height: 500px;
+    background-color: #141212;
+    box-sizing: border-box;
+    float: left;
+    margin: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    border-top: 3px solid #49350b;
+    font-size: 13px;
+    color: floralwhite;
+}
+
+#midbody{
+    overflow: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+}
+
+#footer{
+    font-size: 12px;
+    padding-left: 22em;
+    padding-right: 22em;
+}
+
+#footerul{
+    list-style-type: none;
+}
+
+.footerli{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#emailadres{
+    background-color: #1D1B1D;
+    border: 2px solid #9d7933;
+    color: white;
+}
+
+#wachtwoord{
+    background-color: #1D1B1D;
+    border: 2px solid #9d7933;
+    color: white;
+}
+
+#loginButton{
+    background-color: #935C1B;
+    border: 2px solid #9d7933;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#registreerjenu{
+    font-size: 10px;
+}
+
+#registreerjenu a{
+    color: white;
+    text-decoration: none;
+}
+
+#registreerjenu a:hover{
+    text-decoration: underline;
+}
+
+#loginform{
+    text-align: center;
+    border-top: 3px solid #49350b;
+}
+
+#loginform{
+    background-color: #141212;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0.2em;
+    padding-bottom: 0.7em;
+}
+
+#registreerButton{
+    background-color: #935C1B;
+    border: 2px solid #9d7933;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#registreerButton:hover {
+    opacity: 0.8;
+}
+
+#loginButton:hover {
+    opacity: 0.8;
+}
+
+.footerli a{
+    text-decoration: none;
+    color: white;
+}
+
+.footerli a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#uploadknop{
+    background-color: #935C1B;
+    border: 2px solid #9d7933;
+    border-radius: 5px;
+    color: white;
+    margin-top: 0.6em;
+}
+
+#uploadknop:hover{
+    opacity: 0.8;
+}
+
+#description{
+    background-color: grey;
+    border: 1px solid lightgrey;
+    color: white;
+    margin: 0.6em;
+}
+
+#uploadButton{
+    background-color: #935C1B;
+    border: 2px solid #9d7933;
+    border-radius: 5px;
+    color: black;
+}
+
+#uploadButton:hover{
+    opacity: 0.8;
+}
+
+#uploadDiv{
+    background-color: #141212;
+    box-sizing: border-box;
+    border-top: 3px solid #49350b;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.uploadedImages{
+    border: 1px solid red;
+    width: 250px;
+    height: 250px;
+    margin: 1em;
+    box-sizing: border-box;
+}
+
+.material-icons{
+    color: #9d7933;
+    position: absolute;
+    left: 276px;
+    top: 172px;
+}
+
+#submit_soorteer{
+    background-color: #212123;
+    border: 3px solid #49350b;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    float: right;
+    margin-top: 6px;
+    margin-right: 1.5px;
+    color: white;
+    width: 60px;
+}
+
+#select_sorteer{
+    background-color: #212123;
+    border: 3px solid #49350b;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    margin-top: 6px;
+    margin-right: -91px;
+    color: white;
+    width: 130px;
+}
+
+#text_zoek{
+    background-color: #212123;
+    border: 3px solid #49350b;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    margin-top: 3px;
+    margin-right: -91px;
+    color: white;
+    width: 122px;
+}
+
+#submit_zoek{
+    background-color: #212123;
+    border: 3px solid #49350b;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    float: right;
+    margin-top: 3px;
+    margin-right: 1.5px;
+    color: white;
+    width: 60px;
+}
